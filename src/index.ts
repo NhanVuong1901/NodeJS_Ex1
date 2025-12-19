@@ -160,5 +160,5 @@ app.delete("/products/:id", (req: Request, res: Response) => {
 
 // ================= START SERVER =================
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
+  console.log(`Server running at http://localhost:${PORT}`);
 });
